@@ -3,16 +3,16 @@ import { NavController, NavParams } from 'ionic-angular';
 
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html',
+  selector: 'page-consejos',
+  templateUrl: 'consejos.html',
 })
-export class HomePage {
+export class ConsejosPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad HomePage');
+    console.log('ionViewDidLoad ConsejosPage');
   }
 
 }
