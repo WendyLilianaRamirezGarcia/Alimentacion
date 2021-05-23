@@ -10,6 +10,8 @@ import {AlimentacionPage} from '../pages/alimentacion/alimentacion';
 import {ConsejosPage} from '../pages/consejos/consejos';
 import {AnunciosPage} from '../pages/anuncios/anuncios';
 
+import {DetailshomePage} from '../pages/detailshome/detailshome';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import {AnunciosPage} from '../pages/anuncios/anuncios';
 
     AlimentacionPage,
     ConsejosPage,
-    AnunciosPage
+    AnunciosPage,
+
+    DetailshomePage
 
 
   ],
@@ -33,7 +37,8 @@ import {AnunciosPage} from '../pages/anuncios/anuncios';
 
     AlimentacionPage,
     ConsejosPage,
-    AnunciosPage
+    AnunciosPage,
+    DetailshomePage
 
   ],
   providers: [

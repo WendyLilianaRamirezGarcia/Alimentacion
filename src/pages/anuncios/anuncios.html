@@ -1,9 +1,4 @@
-<!--
-  Generated template for the AnunciosPage page.
 
-  See http://ionicframework.com/docs/components/#navigation for more info on
-  Ionic pages and navigation.
--->
 <ion-header>
   <ion-navbar>
     <ion-title>Anuncios</ion-title>
@@ -11,5 +6,22 @@
 </ion-header>
 
 <ion-content padding>
+
+<ion-card
+
+*ngFor="let currentCard of _dataCards3"> 
+
+<img src="assets/imgs/{{ currentCard.image }}">
+
+<ion-card-content>  
+<ion-card-title> {{currentCard.title  | uppercase}}   </ion-card-title>
+</ion-card-content>
+
+
+</ion-card>
+
+
+
+
 
 </ion-content>
